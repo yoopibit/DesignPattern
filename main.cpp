@@ -6,10 +6,12 @@
 #include "Design Patterns/Builder/Builder.h"
 #include "Design Patterns/Builder/GroovyStyleBuilder.h"
 #include "Design Patterns/Builder/testBuilder.h"
+#include "Design Patterns/Factory/TestFactory.h"
 
 int main()
 {
-    testBuilderFacets();
+    testFactory();
+    //testBuilderFacets();
 //    testGroovyStyleBuilder();
     //testBuilder();
     //testSingle();
