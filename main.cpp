@@ -7,10 +7,12 @@
 #include "Design Patterns/Builder/GroovyStyleBuilder.h"
 #include "Design Patterns/Builder/testBuilder.h"
 #include "Design Patterns/Factory/TestFactory.h"
+#include "Design Patterns/Prototype/Prototype.h"
 
 int main()
 {
-    testFactory();
+    testPrototype();
+//    testFactory();
     //testBuilderFacets();
 //    testGroovyStyleBuilder();
     //testBuilder();
